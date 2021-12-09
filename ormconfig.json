@@ -1,0 +1,23 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 9002,
+    "username": "postgres",
+    "password": "change-in-production",
+    "database": "test_db",
+    "synchronize": false,
+    "logging": false,
+    "entities": ["src/models/*.model{.ts,.js}"],
+    "migrations": ["src/db/migration/**/*{.ts,.js}"],
+    "subscribers": ["src/db/subscriber/**/*{.ts,.js}"],
+    "factories": ["src/db/factories/*{.ts,.js}"],
+    "seeds": ["src/db/seeds/*{.ts,.js}"],
+    "cli": {
+      "entitiesDir": "src/models",
+      "migrationsDir": "src/db/migration",
+      "subscribersDir": "src/db/subscriber"
+    }
+  }
+]

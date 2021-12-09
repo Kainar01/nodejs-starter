@@ -1,0 +1,30 @@
+{
+  "compilerOptions": { /* Strict Type-Checking Options */
+    "strict": true,
+    /* Basic Options */
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationMap": true,
+    "composite": true,
+    "target": "ES2016",
+    "module": "commonjs",
+    "lib": [
+      "es2019"
+    ],
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // "target": "ES2016",
+    "rootDir": "./src",
+    "tsBuildInfoFile": "dist/.tsbuildinfo",
+    "removeComments": false,
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

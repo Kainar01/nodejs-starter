@@ -1,0 +1,25 @@
+{
+    "cSpell.words": [
+        "cheatings",
+        "ipaddress",
+        "middlewares",
+        "minio",
+        "postgres",
+        "timestamptz",
+        "tsyringe",
+        "typeorm",
+        "varchar"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 9002,
+            "driver": "PostgreSQL",
+            "name": "sfdlf",
+            "database": "test_db",
+            "username": "postgres",
+            "password": "change-in-production"
+        }
+    ]
+}
