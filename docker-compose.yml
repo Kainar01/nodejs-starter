@@ -25,7 +25,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=compose
     depends_on:
       - db
     ports:
